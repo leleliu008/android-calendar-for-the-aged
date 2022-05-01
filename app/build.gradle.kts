@@ -1,15 +1,14 @@
 plugins {
     id("com.android.application")
     id("kotlin-android")
-    id("kotlin-android-extensions")
 }
 
 android {
-    compileSdkVersion(30)
+    compileSdk = 30
 
     defaultConfig {
-        minSdkVersion(21)
-        targetSdkVersion(30)
+        minSdk = 21
+        targetSdk = 30
         applicationId = "com.fpliu.calendar_for_the_aged"
         versionCode = 1650669576
         versionName = "1.0.0"
@@ -98,14 +97,15 @@ android {
 
     buildFeatures {
         prefab = true
+        viewBinding = true
     }
 }
 
 dependencies {
     //内存泄漏检测工具LeakCanary
     //https://github.com/square/leakcanary
-    debugApi("com.squareup.leakcanary:leakcanary-android:1.5.4")
-    releaseApi("com.squareup.leakcanary:leakcanary-android-no-op:1.5.4")
+//    debugApi("com.squareup.leakcanary:leakcanary-android:1.5.4")
+//    releaseApi("com.squareup.leakcanary:leakcanary-android-no-op:1.5.4")
 
     //https://github.com/uber/AutoDispose
     //autodispose-android has a ViewScopeProvider for use with Android View classes.

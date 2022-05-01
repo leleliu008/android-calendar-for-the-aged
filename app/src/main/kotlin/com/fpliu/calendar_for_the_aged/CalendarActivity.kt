@@ -9,10 +9,10 @@ import com.uber.autodispose.autoDisposable
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
-import kotlinx.android.synthetic.main.calendar_activity.*
 import java.text.SimpleDateFormat
 import java.util.*
 import java.util.concurrent.TimeUnit
+import com.fpliu.calendar_for_the_aged.databinding.CalendarActivityBinding
 
 class CalendarActivity : BaseActivity() {
 
@@ -22,9 +22,12 @@ class CalendarActivity : BaseActivity() {
 
     private val simpleDateFormat = SimpleDateFormat("HH:mm", Locale.CHINA)
 
+    private lateinit var binding: CalendarActivityBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        addContentView(R.layout.calendar_activity)
+        binding = CalendarActivityBinding.inflate(layoutInflater)
+        addContentView(binding.root)
     }
 
     override fun onResume() {
@@ -42,11 +45,11 @@ class CalendarActivity : BaseActivity() {
             .subscribe({
                 val date = Calendar.getDate()
                 val list = date.split("|")
-                yearTv.text = String.format("%s年", list[0])
-                day_solarTv.text = String.format("%s月%s日", list[1], list[2])
-                day_lunarTv.text = list[4]
-                weekTv.text = list[3]
-                tagTv.text = String.format("%s%s", list[5], list[6])
+                binding.yearTv.text = String.format("%s年", list[0])
+                binding.daySolarTv.text = String.format("%s月%s日", list[1], list[2])
+                binding.dayLunarTv.text = list[4]
+                binding.weekTv.text = list[3]
+                binding.tagTv.text = String.format("%s%s", list[5], list[6])
             }, { Logger.e(TAG, "updateDate()", it) })
     }
 
@@ -57,7 +60,7 @@ class CalendarActivity : BaseActivity() {
             .observeOn(AndroidSchedulers.mainThread())
             .autoDisposable(disposeOnStop())
             .subscribe({
-                timeTv.text = simpleDateFormat.format(System.currentTimeMillis())
+                binding.timeTv.text = simpleDateFormat.format(System.currentTimeMillis())
             }, { Logger.e(TAG, "updateTime()", it) })
     }
 

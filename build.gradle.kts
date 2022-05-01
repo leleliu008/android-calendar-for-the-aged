@@ -1,9 +1,9 @@
 buildscript {
-    val kotlinVersion = "1.3.50"
+    val kotlinVersion = "1.6.21"
     extra["kotlinVersion"] = kotlinVersion
          
     repositories {
-        maven { url = uri("https://maven.aliyun.com/repository/jcenter") }
+        maven { url = uri("https://maven.aliyun.com/repository/central") }
         google()
     }
 
@@ -20,12 +20,11 @@ buildscript {
 
 allprojects {
     repositories {
-//        maven { url = uri("https://maven.aliyun.com/repository/central") }
-        mavenCentral()
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
 
         // https://mvnrepository.com/search?q=com.fpliu
         // https://developer.aliyun.com/mvn/guide
-        jcenter { url = uri("https://maven.aliyun.com/repository/jcenter") }
+        maven { url = uri("https://maven.aliyun.com/repository/jcenter") }
 
         google()
     }
