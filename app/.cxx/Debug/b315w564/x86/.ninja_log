@@ -1,0 +1,17 @@
+# ninja log v5
+3	33	1651394508	build.ninja	f4b45bb76603e1a3
+0	2	0	clean	e10f46842b2ecfd9
+0	14	1651394516	build.ninja	f4b45bb76603e1a3
+1	55	1651394516	CMakeFiles/app.dir/DateConvertor.cpp.o	32390d6b52100540
+55	70	1651394516	/home/leleliu008/android-date-time-for-the-aged/app/build/intermediates/cxx/Debug/b315w564/obj/x86/libapp.so	1627f6262f84c884
+0	2	0	clean	e10f46842b2ecfd9
+0	2	0	clean	e10f46842b2ecfd9
+0	88	1651394886	CMakeFiles/app.dir/DateConvertor.cpp.o	32390d6b52100540
+88	100	1651394886	/home/leleliu008/android-date-time-for-the-aged/app/build/intermediates/cxx/Debug/b315w564/obj/x86/libapp.so	1627f6262f84c884
+0	2	0	clean	e10f46842b2ecfd9
+0	54	1651394918	CMakeFiles/app.dir/DateConvertor.cpp.o	32390d6b52100540
+54	66	1651394918	/home/leleliu008/android-date-time-for-the-aged/app/build/intermediates/cxx/Debug/b315w564/obj/x86/libapp.so	1627f6262f84c884
+0	1	0	clean	e10f46842b2ecfd9
+0	58	1651394977	CMakeFiles/app.dir/DateConvertor.cpp.o	32390d6b52100540
+58	67	1651394977	/home/leleliu008/android-date-time-for-the-aged/app/build/intermediates/cxx/Debug/b315w564/obj/x86/libapp.so	1627f6262f84c884
+0	1	0	clean	e10f46842b2ecfd9

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fpliu:Android-Font-Config-api:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/19207b6a5661caae5abf45ecc8691e12/transformed/Android-Font-Config-api-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/09a7c1149df3dee32c3907d620ce655c/transformed/Android-Font-Config-api-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/19207b6a5661caae5abf45ecc8691e12/transformed/Android-Font-Config-api-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/19207b6a5661caae5abf45ecc8691e12/transformed/Android-Font-Config-api-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.fpliu/Android-Font-Config-api/1.0.0/4a1935494d69decbdef1ad5e18b53efc83797a1a/Android-Font-Config-api-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.fpliu/Android-Font-Config-api/1.0.0/b4973eefd2856ec26c1408ce732020e304f5a2f4/Android-Font-Config-api-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

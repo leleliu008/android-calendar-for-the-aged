@@ -1,0 +1,3 @@
+/home/leleliu008/android-calendar-for-the-aged/app/.cxx/Debug/6i1k516b/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/leleliu008/android-calendar-for-the-aged/app/.cxx/Debug/6i1k516b/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/leleliu008/android-calendar-for-the-aged/app/.cxx/Debug/6i1k516b/arm64-v8a/CMakeFiles/app.dir

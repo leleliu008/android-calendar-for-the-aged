@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.uber.autodispose:autodispose-android:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/9779e267734c0f7925bba161ed9d15d0/transformed/autodispose-android-1.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/1715c6eaf07cecdebe4931bc090c1eb6/transformed/autodispose-android-1.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/c2dad3b73eed0cb8cc9ebebd3a0d9c8e/transformed/autodispose-android-1.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/c2dad3b73eed0cb8cc9ebebd3a0d9c8e/transformed/autodispose-android-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/c2dad3b73eed0cb8cc9ebebd3a0d9c8e/transformed/autodispose-android-1.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.uber.autodispose/autodispose-android/1.1.0/9620847c443822215fb77cd4ea65ccd9fa0ae076/autodispose-android-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.uber.autodispose/autodispose-android/1.1.0/3e11ee4fe140ef651f5e37a390cff9de84c97771/autodispose-android-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

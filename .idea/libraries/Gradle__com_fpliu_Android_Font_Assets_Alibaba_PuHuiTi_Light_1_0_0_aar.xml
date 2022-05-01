@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fpliu:Android-Font-Assets-Alibaba_PuHuiTi_Light:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/8c18e85a344cb37152422b1c288a7fa5/transformed/Android-Font-Assets-Alibaba_PuHuiTi_Light-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/c0ce7a86b5b40abc9811f81077984a69/transformed/Android-Font-Assets-Alibaba_PuHuiTi_Light-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/8c18e85a344cb37152422b1c288a7fa5/transformed/Android-Font-Assets-Alibaba_PuHuiTi_Light-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/8c18e85a344cb37152422b1c288a7fa5/transformed/Android-Font-Assets-Alibaba_PuHuiTi_Light-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.fpliu/Android-Font-Assets-Alibaba_PuHuiTi_Light/1.0.0/9218b2ef25ee69e5e3ae4da2829cc114fff6e233/Android-Font-Assets-Alibaba_PuHuiTi_Light-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.fpliu/Android-Font-Assets-Alibaba_PuHuiTi_Light/1.0.0/9218b2ef25ee69e5e3ae4da2829cc114fff6e233/Android-Font-Assets-Alibaba_PuHuiTi_Light-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

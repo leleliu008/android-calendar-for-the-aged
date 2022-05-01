@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp750_100"
+        android:layout_marginBottom="@dimen/dp750_100"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dp750_150" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/yearTv"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/c_312682"
+            android:textSize="@dimen/sp750_60" />
+
+
+        <TextView
+            android:id="@+id/day_solarTv"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/c_2E8B57"
+            android:textSize="@dimen/sp750_60" />
+
+
+        <TextView
+            android:id="@+id/day_lunarTv"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/c_FF6A6A"
+            android:textSize="@dimen/sp750_60" />
+
+        <TextView
+            android:id="@+id/weekTv"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/c_008B8B"
+            android:textSize="@dimen/sp750_60" />
+
+        <TextView
+            android:id="@+id/tagTv"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp750_60" />
+    </LinearLayout>
+</LinearLayout>

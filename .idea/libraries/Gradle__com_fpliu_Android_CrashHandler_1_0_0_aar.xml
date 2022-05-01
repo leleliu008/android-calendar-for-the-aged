@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fpliu:Android-CrashHandler:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/c6af319a4c862968615da22042c915e4/transformed/Android-CrashHandler-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/d229edf9803a497f97a21780eb3635d8/transformed/Android-CrashHandler-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/c6af319a4c862968615da22042c915e4/transformed/Android-CrashHandler-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/c6af319a4c862968615da22042c915e4/transformed/Android-CrashHandler-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.fpliu/Android-CrashHandler/1.0.0/ee61d2fa550046877ce5b6df40e2eccf5deacd4f/Android-CrashHandler-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.fpliu/Android-CrashHandler/1.0.0/bff4c87248878b8c7617dab2ab92d8643bbcea20/Android-CrashHandler-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

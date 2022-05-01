@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jakewharton.rxbinding3:rxbinding-core:3.0.0-alpha2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/73e0403cf5419e295370b4da9cab33b6/transformed/rxbinding-core-3.0.0-alpha2/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/e2f2846258e4b0f3ac319bbe5f629dbc/transformed/rxbinding-core-3.0.0-alpha2/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/73e0403cf5419e295370b4da9cab33b6/transformed/rxbinding-core-3.0.0-alpha2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/73e0403cf5419e295370b4da9cab33b6/transformed/rxbinding-core-3.0.0-alpha2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.jakewharton.rxbinding3/rxbinding-core/3.0.0-alpha2/6f2dcb525b2e73583b06f3018b09cf737d2b55b8/rxbinding-core-3.0.0-alpha2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.jakewharton.rxbinding3/rxbinding-core/3.0.0-alpha2/a83dbcd5f0c2a6ac91f6c879587a5edd8908ff75/rxbinding-core-3.0.0-alpha2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

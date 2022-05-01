@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/leleliu008/android-date-time-for-the-aged/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/leleliu008/.ndk-pkg/android-sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/leleliu008/android-date-time-for-the-aged/app/.cxx/Debug/b315w564/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/leleliu008/.ndk-pkg/android-sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/leleliu008/android-date-time-for-the-aged/app/.cxx/Debug/b315w564/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "app::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "app",
+      "output": "/home/leleliu008/android-date-time-for-the-aged/app/build/intermediates/cxx/Debug/b315w564/obj/armeabi-v7a/libapp.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/leleliu008/.ndk-pkg/android-sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/leleliu008/.ndk-pkg/android-sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

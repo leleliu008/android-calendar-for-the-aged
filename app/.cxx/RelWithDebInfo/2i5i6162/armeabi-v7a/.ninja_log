@@ -1,0 +1,15 @@
+# ninja log v5
+0	53	1651395782	CMakeFiles/app.dir/DateConvertor.cpp.o	598dcd259d6e69cd
+53	62	1651395782	/home/leleliu008/android-calendar-for-the-aged/app/build/intermediates/cxx/RelWithDebInfo/2i5i6162/obj/armeabi-v7a/libapp.so	63ca3ac1a929e8cc
+0	2	0	clean	e10f46842b2ecfd9
+0	2	0	clean	e10f46842b2ecfd9
+0	2	0	clean	e10f46842b2ecfd9
+0	1	0	clean	e10f46842b2ecfd9
+0	14	1651396745	build.ninja	4e3c520454028040
+0	1	0	clean	e10f46842b2ecfd9
+0	2	0	clean	e10f46842b2ecfd9
+0	10	1651396777	build.ninja	4e3c520454028040
+0	45	1651396777	CMakeFiles/app.dir/Calendar.cpp.o	7a9494cd619299f1
+45	58	1651396777	/home/leleliu008/android-calendar-for-the-aged/app/build/intermediates/cxx/RelWithDebInfo/2i5i6162/obj/armeabi-v7a/libapp.so	f937e22b225d3fc1
+0	1	0	clean	e10f46842b2ecfd9
+0	1	0	clean	e10f46842b2ecfd9

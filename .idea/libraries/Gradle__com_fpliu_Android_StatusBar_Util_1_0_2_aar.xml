@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fpliu:Android-StatusBar-Util:1.0.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/4af28560da85eb41ea5ec3fd5b527216/transformed/Android-StatusBar-Util-1.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/fb1e02619cbaeb5838933e2e46b6c707/transformed/Android-StatusBar-Util-1.0.2/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/4af28560da85eb41ea5ec3fd5b527216/transformed/Android-StatusBar-Util-1.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/4af28560da85eb41ea5ec3fd5b527216/transformed/Android-StatusBar-Util-1.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.fpliu/Android-StatusBar-Util/1.0.2/d7fb10b7b465adf88f75089354e3f0360e2eea53/Android-StatusBar-Util-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.fpliu/Android-StatusBar-Util/1.0.2/2360a53e6c666507cf48d38c1ccc3fe652f4bb8d/Android-StatusBar-Util-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

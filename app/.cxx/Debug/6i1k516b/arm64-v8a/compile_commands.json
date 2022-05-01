@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/leleliu008/android-calendar-for-the-aged/app/.cxx/Debug/6i1k516b/arm64-v8a",
+  "command": "/home/leleliu008/.ndk-pkg/android-sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/home/leleliu008/.ndk-pkg/android-sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/leleliu008/.ndk-pkg/android-sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dapp_EXPORTS -isystem /home/leleliu008/.gradle/caches/transforms-3/85b56797aae76cf43b611d94742a2046/transformed/chinese-calendar-2022.04.24/prefab/modules/libchinese-calendar.a/libs/android.arm64-v8a/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/app.dir/Calendar.cpp.o -c /home/leleliu008/android-calendar-for-the-aged/app/src/main/cpp/Calendar.cpp",
+  "file": "/home/leleliu008/android-calendar-for-the-aged/app/src/main/cpp/Calendar.cpp"
+}
+]
