@@ -21,7 +21,7 @@ buildscript {
 allprojects {
     repositories {
 //        maven { url = uri("https://maven.aliyun.com/repository/central") }
-//        maven { url = uri("https://repo1.maven.org/maven2") }
+        maven { url = uri("https://repo1.maven.org/maven2") }
         // https://developer.aliyun.com/mvn/guide
         jcenter { url = uri("https://maven.aliyun.com/repository/jcenter") }
 

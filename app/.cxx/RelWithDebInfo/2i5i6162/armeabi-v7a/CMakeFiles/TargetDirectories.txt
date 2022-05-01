@@ -1,3 +1,0 @@
-/home/leleliu008/android-calendar-for-the-aged/app/.cxx/RelWithDebInfo/2i5i6162/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-/home/leleliu008/android-calendar-for-the-aged/app/.cxx/RelWithDebInfo/2i5i6162/armeabi-v7a/CMakeFiles/edit_cache.dir
-/home/leleliu008/android-calendar-for-the-aged/app/.cxx/RelWithDebInfo/2i5i6162/armeabi-v7a/CMakeFiles/app.dir

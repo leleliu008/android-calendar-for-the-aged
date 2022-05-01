@@ -1,7 +1,0 @@
-Executable : /home/leleliu008/.ndk-pkg/android-sdk/cmake/3.18.1/bin/ninja
-arguments : 
--C
-/home/leleliu008/android-calendar-for-the-aged/app/.cxx/RelWithDebInfo/2i5i6162/x86_64
-app
-jvmArgs : 
-

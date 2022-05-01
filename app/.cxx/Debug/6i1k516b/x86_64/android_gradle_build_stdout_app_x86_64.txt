@@ -1,2 +1,0 @@
-ninja: Entering directory `/home/leleliu008/android-calendar-for-the-aged/app/.cxx/Debug/6i1k516b/x86_64'
-ninja: no work to do.
