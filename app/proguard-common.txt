@@ -365,7 +365,7 @@
 #自己的类------------------------------->>>
 -whyareyoukeeping class com.fpliu.calendar_for_the_aged.R { *; }
 
--keep class com.fpliu.calendar_for_the_aged.ui.DateConvertor {
+-keep class com.fpliu.calendar_for_the_aged.Calendar {
     *;
 }
 
