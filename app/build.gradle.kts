@@ -10,7 +10,7 @@ android {
         minSdk = 21
         targetSdk = 30
         applicationId = "com.fpliu.calendar_for_the_aged"
-        versionCode = 1650669576
+        versionCode = 1651682055
         versionName = "1.0.0"
 
         //只需要支持中文和英文即可，其他语言不必支持
@@ -51,9 +51,12 @@ android {
     }
 
     compileOptions {
-        //使用JAVA8语法解析
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"
     }
 
     packagingOptions {
@@ -68,6 +71,7 @@ android {
                 "okhttp3/internal/publicsuffix/publicsuffixes.gz",
                 "kotlin/**/*.kotlin_builtins",
                 "kotlin/**/*.kotlin_metadata",
+                "kotlin-tooling-metadata.json",
                 "kotlin/*",
                 "META-INF/*"
             )
