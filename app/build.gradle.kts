@@ -10,7 +10,7 @@ android {
         minSdk = 21
         targetSdk = 30
         applicationId = "com.fpliu.calendar_for_the_aged"
-        versionCode = 1651682055
+        versionCode = 1656036439
         versionName = "1.0.0"
 
         //只需要支持中文和英文即可，其他语言不必支持
@@ -124,5 +124,5 @@ dependencies {
     api("com.fpliu:Android-CustomDrawable:1.0.0")
     api("com.fpliu:Android-CustomDimen:1.0.0")
 
-    api("com.fpliu.ndk.pkg.prefab.android.21:chinese-calendar:2022.04.24@aar")
+    api("com.fpliu.ndk.pkg.prefab.android.21:chinese-calendar:2022.06.24@aar")
 }

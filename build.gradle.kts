@@ -22,10 +22,6 @@ allprojects {
     repositories {
         maven { url = uri("https://maven.aliyun.com/repository/public") }
 
-        // https://mvnrepository.com/search?q=com.fpliu
-        // https://developer.aliyun.com/mvn/guide
-        maven { url = uri("https://maven.aliyun.com/repository/jcenter") }
-
         google()
     }
 }
