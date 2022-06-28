@@ -10,7 +10,7 @@ android {
         minSdk = 21
         targetSdk = 30
         applicationId = "com.fpliu.calendar_for_the_aged"
-        versionCode = 1656036439
+        versionCode = 1656337847
         versionName = "1.0.0"
 
         //只需要支持中文和英文即可，其他语言不必支持
@@ -38,15 +38,33 @@ android {
     }
 
     buildTypes {
-        getByName("debug") {
+        debug {
             isMinifyEnabled = false
             isShrinkResources = false
+
+            externalNativeBuild {
+                cmake {
+                    arguments += "-DCMAKE_BUILD_TYPE=Debug"
+                    arguments += "-DANDROID_STL=c++_static"
+                    cppFlags  += "-std=c++17"
+                }
+            }
         }
-        getByName("release") {
-            signingConfig = signingConfigs.findByName("release")
+
+        release {
             isMinifyEnabled = true
             isShrinkResources = true
+
+            signingConfig = signingConfigs.findByName("release")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-common.txt", "proguard-nolog.txt")
+
+            externalNativeBuild {
+                cmake {
+                    arguments += "-DCMAKE_BUILD_TYPE=Release"
+                    arguments += "-DANDROID_STL=c++_static"
+                    cppFlags  += "-std=c++17"
+                }
+            }
         }
     }
 
@@ -94,7 +112,7 @@ android {
 
     externalNativeBuild {
         cmake {
-            version = "3.18.1"
+            version = "3.18.1+"
             path = file("src/main/cpp/CMakeLists.txt")
         }
     }
