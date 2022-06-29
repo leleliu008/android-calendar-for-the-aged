@@ -15,6 +15,13 @@ android {
 
         //只需要支持中文和英文即可，其他语言不必支持
         resourceConfigurations += setOf("en", "zh")
+
+        externalNativeBuild {
+            cmake {
+                arguments += "-DANDROID_STL=c++_static"
+                cppFlags  += "-std=c++17"
+            }
+        }
     }
 
     sourceSets {
@@ -41,14 +48,6 @@ android {
         debug {
             isMinifyEnabled = false
             isShrinkResources = false
-
-            externalNativeBuild {
-                cmake {
-                    arguments += "-DCMAKE_BUILD_TYPE=Debug"
-                    arguments += "-DANDROID_STL=c++_static"
-                    cppFlags  += "-std=c++17"
-                }
-            }
         }
 
         release {
@@ -57,14 +56,6 @@ android {
 
             signingConfig = signingConfigs.findByName("release")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-common.txt", "proguard-nolog.txt")
-
-            externalNativeBuild {
-                cmake {
-                    arguments += "-DCMAKE_BUILD_TYPE=Release"
-                    arguments += "-DANDROID_STL=c++_static"
-                    cppFlags  += "-std=c++17"
-                }
-            }
         }
     }
 
