@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fpliu.calendar_for_the_aged">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,6 +11,7 @@
         android:description="@string/app_description"
         android:theme="@style/AppTheme">
         <activity
+            android:exported="true"
             android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>

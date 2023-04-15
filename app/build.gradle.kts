@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    compileSdk = 30
+    compileSdk = 33
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 30
+        targetSdk = 33
         applicationId = "com.fpliu.calendar_for_the_aged"
         versionCode = 1656337847
         versionName = "1.0.0"
@@ -112,6 +112,7 @@ android {
         prefab = true
         viewBinding = true
     }
+    namespace = "com.fpliu.calendar_for_the_aged"
 }
 
 dependencies {
