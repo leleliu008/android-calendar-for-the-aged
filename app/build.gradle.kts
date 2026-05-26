@@ -4,21 +4,30 @@ plugins {
 }
 
 android {
-    compileSdk = 33
+    namespace = "com.fpliu.calendar_for_the_aged"
+
+    compileSdk = 37
 
     defaultConfig {
+        applicationId = "com.fpliu.calendar_for_the_aged"
+
         minSdk = 21
         targetSdk = 33
-        applicationId = "com.fpliu.calendar_for_the_aged"
+
         versionCode = 1656337847
         versionName = "1.0.0"
 
         //只需要支持中文和英文即可，其他语言不必支持
         resourceConfigurations += setOf("en", "zh")
 
+        ndk {
+            abiFilters += setOf("arm64-v8a")
+//            abiFilters += setOf("arm64-v8a", "x86_64")
+        }
+
         externalNativeBuild {
             cmake {
-                arguments += "-DANDROID_STL=c++_static"
+                arguments += "-DANDROID_STL=c++_shared"
                 cppFlags  += "-std=c++17"
             }
         }
@@ -41,7 +50,11 @@ android {
     }
 
     dataBinding {
-        isEnabled = false
+        enable = false
+    }
+
+    viewBinding {
+        enable = true
     }
 
     buildTypes {
@@ -60,15 +73,34 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 
-    packagingOptions {
+    ndkVersion = "27.3.13750724"
+
+    externalNativeBuild {
+        cmake {
+            version = "3.18.1+"
+            path = file("src/main/cpp/CMakeLists.txt")
+        }
+    }
+
+    buildFeatures {
+        prefab = true
+    }
+
+    lint {
+        abortOnError = false
+        checkReleaseBuilds = false
+        disable += setOf("ContentDescription", "HardcodedText")
+    }
+
+    packaging {
         jniLibs {
             excludes += setOf("kotlin/*", "META-INF/*")
         }
@@ -87,32 +119,11 @@ android {
         }
     }
 
-    lint {
-        abortOnError = false
-        checkReleaseBuilds = false
-        disable += setOf("ContentDescription", "HardcodedText")
-    }
-
     bundle {
         abi {
             enableSplit = false
         }
     }
-
-    ndkVersion = "23.1.7779620"
-
-    externalNativeBuild {
-        cmake {
-            version = "3.18.1+"
-            path = file("src/main/cpp/CMakeLists.txt")
-        }
-    }
-
-    buildFeatures {
-        prefab = true
-        viewBinding = true
-    }
-    namespace = "com.fpliu.calendar_for_the_aged"
 }
 
 dependencies {
@@ -123,7 +134,7 @@ dependencies {
 
     //https://github.com/uber/AutoDispose
     //autodispose-android has a ViewScopeProvider for use with Android View classes.
-    api("com.uber.autodispose:autodispose-android-ktx:1.1.0")
+    api("com.uber.autodispose:autodispose-android-ktx:1.2.0")
 
     api("com.fpliu:Android-CrashHandler:1.0.0")
     api("com.fpliu:Android-StatusBar-Util:1.0.2")
